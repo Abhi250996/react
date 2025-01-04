@@ -1,0 +1,29 @@
+.home_image {
+    width: 30%;
+    height: 30%;
+}
+
+
+.hometext {
+    width: 25%;
+    height: 30%;
+  }
+
+.homepage {
+    background-color: #C8F6E8;
+     padding: 25px 25px 25px 25px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+ h1 {
+    font-size: 45px; 
+  }
+
+  
+ p {
+    font-size: 25px; 
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.5;
+  }
