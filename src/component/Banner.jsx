@@ -1,4 +1,3 @@
-
 import React from "react";
 import banner from "../assets/sp.png"
 
@@ -23,4 +22,3 @@ export function Banner() {
         </div>
     </>;
 }
- 

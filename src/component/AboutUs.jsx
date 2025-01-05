@@ -1,4 +1,3 @@
-
 import React from "react";
 import { NavBar } from "./navbar";
 
@@ -40,4 +39,3 @@ export function AboutUs() {
 }
 
 export default AboutUs;
- 

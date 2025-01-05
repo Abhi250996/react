@@ -1,4 +1,3 @@
- 
 import React, { useEffect, useState } from "react";
 import { Login } from "./Login";
 
@@ -96,4 +95,4 @@ export function NavBar() {
             </div>
         </>
     );
-} 
+}

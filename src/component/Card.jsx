@@ -1,4 +1,3 @@
- 
 import React from "react";
 
 export function Cards({ item }) {
@@ -27,4 +26,3 @@ export function Cards({ item }) {
 
   );
 }
- 

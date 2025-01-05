@@ -1,4 +1,3 @@
-
 import React from "react";
 import { NavBar } from "./navbar";
 
@@ -62,4 +61,3 @@ export function ContactUs() {
 }
 
 export default ContactUs;
- 

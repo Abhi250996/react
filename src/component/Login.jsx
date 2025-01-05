@@ -1,4 +1,4 @@
- import React from "react";
+import React from "react";
 
 export function Login({ isOpen, onClose }) {
     if (!isOpen) return null; // Render nothing if modal is closed
@@ -17,4 +17,4 @@ export function Login({ isOpen, onClose }) {
             </div>
         </div>
     );
-} 
+}
