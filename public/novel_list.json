@@ -1,0 +1,113 @@
+{
+    "novels": [
+      {
+        "id": 1,
+        "title": "The Great Adventure",
+        "author": "John Doe",
+        "image": "https://img.freepik.com/free-psd/comic-poster-template_23-2148645249.jpg?t=st=1736059790~exp=1736063390~hmac=5f59856ea267980198afcea0635e359c8eba520a34d6a8dcedf807e65646d1af&w=740",
+        "description": "An epic journey through distant lands, filled with mystery, danger, and discovery. Follow the protagonist as they uncover ancient secrets.",
+        "genre": "Adventure",
+        "publicationYear": 2021,
+        "rating": 4.7,
+        "category": "Free",
+        "price": 19.99
+      },
+      {
+        "id": 2,
+        "title": "Mystery at Midnight",
+        "author": "Jane Smith",
+        "image": "https://img.freepik.com/free-psd/comic-poster-template_23-2148645249.jpg?t=st=1736059790~exp=1736063390~hmac=5f59856ea267980198afcea0635e359c8eba520a34d6a8dcedf807e65646d1af&w=740",
+        "description": "A thrilling mystery set in a small town, where dark secrets emerge and a detective races against time to solve a chilling crime.",
+        "genre": "Mystery",
+        "publicationYear": 2019,
+        "rating": 4.3,
+        "category": "Free",
+        "price": 14.99
+      },
+      {
+        "id": 3,
+        "title": "Love in the Stars",
+        "author": "Emily White",
+        "image": "https://img.freepik.com/free-psd/comic-poster-template_23-2148645249.jpg?t=st=1736059790~exp=1736063390~hmac=5f59856ea267980198afcea0635e359c8eba520a34d6a8dcedf807e65646d1af&w=740",
+        "description": "A heartwarming love story that transcends time and space, taking the characters on a journey of cosmic discovery and romance.",
+        "genre": "Romance",
+        "publicationYear": 2020,
+        "rating": 4.9,
+        "category": "Free",
+        "price": 18.99
+      },
+      {
+        "id": 4,
+        "title": "The Silent Warrior",
+        "author": "Mark Black",
+        "image": "https://img.freepik.com/free-psd/comic-poster-template_23-2148645249.jpg?t=st=1736059790~exp=1736063390~hmac=5f59856ea267980198afcea0635e359c8eba520a34d6a8dcedf807e65646d1af&w=740",
+        "description": "A story of a lone warrior, skilled in combat, who must face inner demons while protecting his kingdom from impending war.",
+        "genre": "Action",
+        "publicationYear": 2018,
+        "rating": 4.5,
+        "category": "Paid",
+        "price": 16.99
+      },
+      {
+        "id": 5,
+        "title": "The Forgotten Kingdom",
+        "author": "Sarah Green",
+        "image": "https://img.freepik.com/free-psd/comic-poster-template_23-2148645249.jpg?t=st=1736059790~exp=1736063390~hmac=5f59856ea267980198afcea0635e359c8eba520a34d6a8dcedf807e65646d1af&w=740",
+        "description": "A tale of an ancient kingdom lost to time, where an unlikely hero rises to restore peace and uncover the kingdom's secrets.",
+        "genre": "Fantasy",
+        "publicationYear": 2022,
+        "rating": 4.8,
+        "category": "Free",
+        "price": 22.99
+      },
+      {
+        "id": 6,
+        "title": "The Crystal Maze",
+        "author": "Victor Blue",
+        "image": "https://img.freepik.com/free-psd/comic-poster-template_23-2148645249.jpg?t=st=1736059790~exp=1736063390~hmac=5f59856ea267980198afcea0635e359c8eba520a34d6a8dcedf807e65646d1af&w=740",
+        "description": "A gripping adventure through a magical maze, where every wrong turn could lead to peril, and every victory reveals a deeper mystery.",
+        "genre": "Fantasy",
+        "publicationYear": 2020,
+        "rating": 4.6,
+        "category": "Paid",
+        "price": 20.99
+      },
+      {
+        "id": 7,
+        "title": "Whispers of the Past",
+        "author": "Clara Rose",
+        "image": "https://img.freepik.com/free-psd/comic-poster-template_23-2148645249.jpg?t=st=1736059790~exp=1736063390~hmac=5f59856ea267980198afcea0635e359c8eba520a34d6a8dcedf807e65646d1af&w=740",
+        "description": "A historical fiction that unveils the secrets hidden in old letters and diaries, bringing to light untold stories of love, betrayal, and war.",
+        "genre": "Historical Fiction",
+        "publicationYear": 2019,
+        "rating": 4.4,
+        "category": "Free",
+        "price": 17.99
+      },
+      {
+        "id": 8,
+        "title": "Into the Shadows",
+        "author": "David Knight",
+        "image": "https://img.freepik.com/free-psd/comic-poster-template_23-2148645249.jpg?t=st=1736059790~exp=1736063390~hmac=5f59856ea267980198afcea0635e359c8eba520a34d6a8dcedf807e65646d1af&w=740",
+        "description": "A psychological thriller that takes readers into the mind of a detective on the trail of a serial killer who always stays one step ahead.",
+        "genre": "Thriller",
+        "publicationYear": 2021,
+        "rating": 4.8,
+        "category": "Paid",
+        "price": 21.99
+      },
+      {
+        "id": 9,
+        "title": "The Timekeeper's Legacy",
+        "author": "Olivia Bright",
+        "image": "https://img.freepik.com/free-psd/comic-poster-template_23-2148645249.jpg?t=st=1736059790~exp=1736063390~hmac=5f59856ea267980198afcea0635e359c8eba520a34d6a8dcedf807e65646d1af&w=740",
+        "description": "A time-travel adventure where a young historian uncovers a secret that could change the course of history forever.",
+        "genre": "Sci-Fi",
+        "publicationYear": 2022,
+        "rating": 4.7,
+        "category": "Paid",
+        "price": 19.49
+      }
+    ]
+  }
+  
