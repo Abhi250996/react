@@ -55,10 +55,10 @@ export function FreeComics() {
                         comics appeal to all ages and cultures.
                     </p>
                 </div>
-                <div className="w-full mt-12 md:mt-10">
+                <div className="w-full mt-12 md:mt-10 ">
                     <Slider {...settings} className="gap-4">
                         {comicList.map((comic) => (
-                            <Cards key={comic.id} item={comic} />
+                            <Cards   key={comic.id} item={comic} />
                         ))}
                     </Slider>
                 </div>

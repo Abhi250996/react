@@ -56,7 +56,7 @@ export function NavBar() {
                                 {navBarItems}
                             </ul>
                         </div>
-                        <a className="text-2xl font-bold cursor-pointer">ComicWorld</a>
+                        <a href="/" className="text-2xl font-bold cursor-pointer">ComicWorld</a>
                     </div>
                     <div className="navbar-end space-x-3">
                         <div className="navbar-center hidden lg:flex">
@@ -87,8 +87,7 @@ export function NavBar() {
                                 Login
                             </button>
 
-                            {/* Pass state and handler to the modal */}
-                            <Login isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+                             <Login isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
                         </div>
                     </div>
                 </div>

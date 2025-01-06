@@ -20,7 +20,7 @@ export const Series = () => {
                         Embark on thrilling journeys through colorful worlds filled with heroic feats, mysterious villains, and heart-pounding action! Explore our curated collection of comic series that will transport you to realms where anything is possible. Whether you're a fan of superheroes, fantasy, or dark mysteries, our comics are here to captivate your imagination and leave you craving more. Start reading now and let the adventure begin!
                     </p>
                 </div>
-                <div className="mt-12 grid grid-cols-1 md:grid-cols-4">
+                <div className="mt-12 grid grid-cols-1 md:grid-cols-4 ">
                     {comicList.novels.map((comic) => (
                         <Cards key={comic.id} item={comic} />
                     ))}
