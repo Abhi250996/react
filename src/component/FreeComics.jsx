@@ -58,7 +58,7 @@ export function FreeComics() {
                 <div className="w-full mt-12 md:mt-10 ">
                     <Slider {...settings} className="gap-4">
                         {comicList.map((comic) => (
-                            <Cards   key={comic.id} item={comic} />
+                            <Cards key={comic.id} item={comic} />
                         ))}
                     </Slider>
                 </div>

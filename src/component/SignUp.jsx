@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavBar } from "./navbar";
-import { Form } from "react-router-dom";
-export function SignUp() {
+
+ export function SignUp() {
 
 
     return (
