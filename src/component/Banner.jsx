@@ -16,7 +16,8 @@ export function Banner() {
                         that energizes your spirit and ignites your passion.</p>
                 </div>
 
-            </div>        <div className="w-full order-1 md:w-1/2 mt-20 flex justify-center md:mt-32">
+            </div>     
+               <div className="w-full order-1 md:w-1/2 mt-20 flex justify-center md:mt-32">
                 <img src={banner} alt="" className="w-39h-39" />
             </div>
         </div>

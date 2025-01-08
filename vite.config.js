@@ -7,5 +7,5 @@ export default defineConfig({
     outDir: 'build', // If you want to create a 'build' folder
   },
   plugins: [react()],
-  base: "/react/",
+  base: "/",
 })
