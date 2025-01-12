@@ -4,15 +4,15 @@ import { Form } from "react-router-dom";
 export function SignUp() {
 
 
-        const {
-            register,
-            handleSubmit,
-            watch,
-            formState: { errors },
-          } = useForm()
-        
-          const onSubmit = (data) => console.log(data)
-    
+    const {
+        register,
+        handleSubmit,
+        watch,
+        formState: { errors },
+    } = useForm()
+
+    const onSubmit = (data) => console.log(data)
+
     return (
         <>
 
@@ -25,9 +25,9 @@ export function SignUp() {
                     </h1>
 
                     <form onSubmit={handleSubmit(onSubmit)}>
-                    <div className="mb-4">
+                        <div className="mb-4">
                             <label className="block text-gray-700 mb-2" htmlFor="name">
-                             Email:
+                                Email:
                             </label>
                             <input
                                 type="text"
@@ -36,8 +36,8 @@ export function SignUp() {
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
                                 {...register("email", { required: true })}
 
-                                />
-                                      {errors.email && <span>This field is required</span>}
+                            />
+                            {errors.email && <span>This field is required</span>}
                         </div>
                         <div className="mb-4">
                             <label className="block text-gray-700 mb-2" htmlFor="email">
@@ -50,8 +50,8 @@ export function SignUp() {
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
                                 {...register("email", { required: true })}
 
-                                />
-                                      {errors.email && <span>This field is required</span>}
+                            />
+                            {errors.email && <span>This field is required</span>}
                         </div>
                         <div className="mb-4">
                             <label className="block text-gray-700 mb-2" htmlFor="email">
@@ -64,10 +64,10 @@ export function SignUp() {
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
                                 {...register("email", { required: true })}
 
-                                />
-                                      {errors.email && <span>This field is required</span>}
+                            />
+                            {errors.email && <span>This field is required</span>}
                         </div>
-                         
+
                         <button
                             type="submit"
                             className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-700 duration-300 w-full"

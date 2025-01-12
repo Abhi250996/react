@@ -7,8 +7,6 @@ export const Series = () => {
 
     return (
         <>
-
-
             <div className="max-w-screen-2x1 container mx-auto px-4 md:px-10 bg-white">
                 <div className="max-w-screen-2x1 container mx-auto md:px-50 px-4 pt-20 flex flex-col justify-center">
 
