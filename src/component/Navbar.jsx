@@ -23,10 +23,10 @@ export function NavBar() {
     }, []);
     const navBarItems = (
         <>
-            <li><a href="/">Home</a></li>
-            <li><a href="/series">Series</a></li>
-            <li><a href="/contactus">Contact</a></li>
-            <li><a href="/aboutus">About</a></li>
+            <li><a className="text-black" href="/">Home</a></li>
+            <li><a className="text-black" href="/series">Series</a></li>
+            <li><a className="text-black"href="/contactus">Contact</a></li>
+            <li><a className="text-black" href="/aboutus">About</a></li>
         </>
     );
 
@@ -52,15 +52,15 @@ export function NavBar() {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-white rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                className="menu menu-sm dropdown-content  bg-white rounded-box z-[1] mt-3 w-52 p-2 shadow">
                                 {navBarItems}
                             </ul>
                         </div>
-                        <a href="/" className="text-2xl font-bold cursor-pointer">ComicWorld</a>
+                        <a href="/" className="text-2xl text-black  font-bold cursor-pointer">ComicWorld</a>
                     </div>
                     <div className="navbar-end space-x-3">
                         <div className="navbar-center hidden lg:flex">
-                            <ul className="menu menu-horizontal px-1">
+                            <ul className="menu menu-horizontal text-black px-1">
                                 {navBarItems}
                             </ul>
                         </div>

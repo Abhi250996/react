@@ -7,14 +7,6 @@ export function Login({ isOpen, onClose }) {
 
     if (!isOpen) return null;
 
-
-
-
-
-
-
-
-
     return (
         <div id="my_modal_3" className="fixed inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50">
             <div className="bg-white md:w-1/4  p-6 rounded-md shadow-md">
@@ -66,7 +58,7 @@ export function Login({ isOpen, onClose }) {
                             type="submit"
                             className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-700 duration-300 w-50  r"
                         >
-                            Submit
+                            Submit  
                         </button>
                     </div>
 

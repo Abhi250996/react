@@ -27,7 +27,7 @@ export function AboutUs() {
         </p>
         <div className="text-center mt-6">
           <a
-            href="/contact"
+            href="/contactus"
             className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-700 duration-300 inline-block"
           >
             Contact Us

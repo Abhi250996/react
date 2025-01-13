@@ -13,11 +13,14 @@ export function Cards({ item }) {
               alt={item.title}
             />
           </figure>
-          <div className="w-full mt-2 p-4 justify-between">
+          <div className="w-full mt-2 p-4 ">
+            <div className="w-full flex flex-row justify-between">
             <h2 className="card-title   ">
               {item.title}
-              <div className="badge badge-secondary">{item.category}</div>
+              <div className="badge badge-secondary ">{item.category}</div>
             </h2>
+            </div>
+           
             <p>{item.author}</p>
             <div className="card-actions justify-between mt-4">
               <div className="badge badge-outline">${item.price}</div>
@@ -28,8 +31,9 @@ export function Cards({ item }) {
 
               <a className="text-blue  underline hover:text-pink-500" href="#" onClick={(e) => {
                 e.preventDefault();
-                previewPdf(item);}}>Preview</a>
-              
+                previewPdf(item);
+              }}>Preview</a>
+
               <a href="#" onClick={(e) => {
                 e.preventDefault();
                 donwloadPdf(item);
