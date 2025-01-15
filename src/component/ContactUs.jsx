@@ -49,7 +49,7 @@ export function ContactUs() {
               ></textarea>
             </div>
             <button
-              type="submit"
+              type="submit" 
               className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-700 duration-300 w-full"
             >
               Send Message
