@@ -5,4 +5,6 @@
 @media (max-width:1180px){    
     .card-title, .card-title .badge {display: block;} 
 }
- 
+*{
+    color: black;
+}

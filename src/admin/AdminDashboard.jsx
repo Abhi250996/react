@@ -9,7 +9,7 @@ export const AdminDashboard = () => {
         <div className='w-full items-center flex-row'>
             <Sidebar/>
 
-            <div className="flex-bg-black text-white "><h1></h1>Dashboard</div>
+            <div className="flex-bg-black  "><h1></h1>Dashboard</div>
         </div>
     );
 }
