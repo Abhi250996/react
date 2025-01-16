@@ -1,9 +1,19 @@
 import React,{useState} from "react";
  import { SignUp } from "./SignUp";
+ import { useForm } from "react-hook-form"
 
 export function Login({ isOpen, onClose }) {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const {
+        register,
+        handleSubmit,
+        watch,
+        formState: { errors },
+      } = useForm()
+    
+      const onSubmit = (data) => console.log(data)
+
 
     if (!isOpen) return null;
 
@@ -29,28 +39,35 @@ export function Login({ isOpen, onClose }) {
                     </button>
 
                 </div>
-                <form>
-                    <div className="mb-4">
+                <form onSubmit={handleSubmit(onSubmit)}>
+                <div className="mb-4">
                         <label className="block text-gray-700 mb-2" htmlFor="name">
                             Email:
                         </label>
                         <input
                             type="text"
-                            id="name"
+                            id="email"
                             placeholder="Enter your email"
                             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                            {...register("email", { required: true })}
+
                         />
+                              {errors.email && <span>This field is required</span>}
+
                     </div>
                     <div className="mb-4">
                         <label className="block text-gray-700 mb-2" htmlFor="email">
                             Password:
                         </label>
                         <input
-                            type="email"
-                            id="email"
+                            type="password"
+                            id="password"
                             placeholder="Enter your password"
                             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                            {...register("password", { required: true })}
                         />
+                              {errors.password && <span>This field is required</span>}
+
                     </div>
 
                     <div className="w-full flex justify-center">

@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavBar } from "./navbar";
+import { Form } from "react-router-dom";
+export function SignUp() {
 
- export function SignUp() {
 
+    const {
+        register,
+        handleSubmit,
+        watch,
+        formState: { errors },
+    } = useForm()
+
+    const onSubmit = (data) => console.log(data)
 
     return (
         <>
@@ -15,17 +24,20 @@ import { NavBar } from "./navbar";
                         Sign Up
                     </h1>
 
-                    <form>
+                    <form onSubmit={handleSubmit(onSubmit)}>
                         <div className="mb-4">
                             <label className="block text-gray-700 mb-2" htmlFor="name">
-                             Email:
+                                Email:
                             </label>
                             <input
                                 type="text"
                                 id="name"
                                 placeholder="Enter your email"
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                                {...register("email", { required: true })}
+
                             />
+                            {errors.email && <span>This field is required</span>}
                         </div>
                         <div className="mb-4">
                             <label className="block text-gray-700 mb-2" htmlFor="email">
@@ -36,7 +48,10 @@ import { NavBar } from "./navbar";
                                 id="email"
                                 placeholder="Enter password"
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                                {...register("email", { required: true })}
+
                             />
+                            {errors.email && <span>This field is required</span>}
                         </div>
                         <div className="mb-4">
                             <label className="block text-gray-700 mb-2" htmlFor="email">
@@ -47,9 +62,12 @@ import { NavBar } from "./navbar";
                                 id="email"
                                 placeholder="Confirm Password"
                                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                                {...register("email", { required: true })}
+
                             />
+                            {errors.email && <span>This field is required</span>}
                         </div>
-                         
+
                         <button
                             type="submit"
                             className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-700 duration-300 w-full"
